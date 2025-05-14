@@ -1,50 +1,62 @@
-# Welcome to your Expo app 👋
+# ParkingPal
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+ParkingPal is a modern web application designed to help users find and manage parking spaces efficiently. Whether you're looking for a spot in a busy city or managing your own parking space, ParkingPal provides a seamless experience.
 
-## Get started
+## Features
 
-1. Install dependencies
+- **Real-time Parking Availability**: Check the availability of parking spaces in real-time.
+- **User Authentication**: Secure login and registration for users.
+- **Interactive Maps**: Visualize parking locations on an interactive map.
+- **Responsive Design**: Enjoy a smooth experience on both desktop and mobile devices.
 
+## Technologies Used
+
+- **Frontend**: React.js, TypeScript, Tailwind CSS
+- **Backend**: Node.js, Express
+- **Database**: MongoDB
+- **Authentication**: JWT
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+- MongoDB
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Meliwat/ParkingPal.git
+   cd ParkingPal
+   ```
+
+2. Install dependencies:
    ```bash
    npm install
    ```
 
-2. Start the app
-
-   ```bash
-   npx expo start
+3. Set up environment variables:
+   Create a `.env` file in the root directory and add the following:
+   ```
+   MONGODB_URI=your_mongodb_uri
+   JWT_SECRET=your_jwt_secret
    ```
 
-In the output, you'll find options to open the app in a
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Contributing
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-## Get a fresh project
+## License
 
-When you're ready, run:
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-```bash
-npm run reset-project
-```
+## Contact
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+For any inquiries, please reach out to [your-email@example.com](mailto:your-email@example.com).
