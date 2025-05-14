@@ -1,17 +1,17 @@
 # ParkingPal
 
-ParkingPal is a modern web application designed to help users find and manage parking spaces efficiently. Whether you're looking for a spot in a busy city or managing your own parking space, ParkingPal provides a seamless experience.
+ParkingPal is a modern mobile application designed to help users find and manage parking spaces efficiently. Whether you're looking for a spot in a busy city or managing your own parking space, ParkingPal provides a seamless experience.
 
 ## Features
 
 - **Real-time Parking Availability**: Check the availability of parking spaces in real-time.
 - **User Authentication**: Secure login and registration for users.
 - **Interactive Maps**: Visualize parking locations on an interactive map.
-- **Responsive Design**: Enjoy a smooth experience on both desktop and mobile devices.
+- **Responsive Design**: Enjoy a smooth experience on both iOS and Android devices.
 
 ## Technologies Used
 
-- **Frontend**: React.js, TypeScript, Tailwind CSS
+- **Frontend**: React Native, TypeScript
 - **Backend**: Node.js, Express
 - **Database**: MongoDB
 - **Authentication**: JWT
@@ -23,6 +23,7 @@ ParkingPal is a modern web application designed to help users find and manage pa
 - Node.js (v14 or higher)
 - npm or yarn
 - MongoDB
+- React Native CLI
 
 ### Installation
 
